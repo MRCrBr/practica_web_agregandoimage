@@ -14,5 +14,5 @@ $.fn.getPokemon = function (elemento, pokenumber) {
     $.fn.getPokemon($("#pokemon_uno"), 25);
   });
   $("#pokemon_uno_boton").mouseover(function(){
-    $("#pokemon_uno_boton").css("background-color", "yellow");
+    $("#pokemon_uno_boton").css("background-color", "green");
   });
