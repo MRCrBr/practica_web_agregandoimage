@@ -13,3 +13,6 @@ $.fn.getPokemon = function (elemento, pokenumber) {
   $("#pokemon_uno_boton").click(function () {
     $.fn.getPokemon($("#pokemon_uno"), 25);
   });
+  $("#pokemon_uno_boton").mouseover(function(){
+    $("#pokemon_uno_boton").css("background-color", "yellow");
+  });
